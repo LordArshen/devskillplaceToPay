@@ -59,7 +59,7 @@ export default function Formulario(){
             "allowPartial": false
           },
           "expiration": `${expirationSeed}`,
-          "returnUrl": "http://localhost:3000/",
+          "returnUrl": "https://vermillion-gumdrop-e5cf44.netlify.app/",
           "ipAddress": "127.0.0.1",
           "userAgent": "PlacetoPay Sandbox"
     }
