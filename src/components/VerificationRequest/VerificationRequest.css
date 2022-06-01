@@ -1,0 +1,12 @@
+.validation {
+    margin: 20px;
+    margin-left: 0;
+    margin-top: 0;
+    width: 15vw;
+    justify-self: center;
+    overflow: hidden;
+}
+
+.validation a {
+    color:white;
+}
