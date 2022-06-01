@@ -5,8 +5,15 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   resolve: {
-    alias: {
-      './runtimeConfig': './runtimeConfig.browser',
-    },
+    alias: [
+      {
+        find: '@', replacement: path.resolve(__dirname, './src'),
+      },
+      {
+        find: './runtimeConfig', replacement: './runtimeConfig.browser',
+      }
+
+    ]
+  }
 }
-})
+,)
